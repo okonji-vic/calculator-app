@@ -14,7 +14,7 @@ body {
     color: red;
 }
 button {
-    width: 15vw;
+    width: 24vw;
     margin-top: 10px;
     height: 13vw;
     font-size: 5vw;
@@ -46,4 +46,16 @@ input::placeholder {
     color: green;
     font-size: 74px;
     text-align: right;
+}
+@media (max-width: 600px) {
+    body {
+        padding-top: 20vw;
+    }
+    #container {
+        padding-top: px; 
+    }
+    button {
+        width: 23vw;
+        height: 23vw;
+    }
 }
