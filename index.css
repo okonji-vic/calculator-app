@@ -42,3 +42,8 @@ input {
     box-sizing: border-box;
     
 }
+input::placeholder {
+    color: green;
+    font-size: 74px;
+    text-align: right;
+}

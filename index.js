@@ -1,10 +1,12 @@
 let input = document.querySelector('input');
 let button = document.querySelectorAll('button');
 
+
 button.forEach((btn) => {
+    
   btn.addEventListener('click', () => {
     if (btn.textContent === '1') {
-        input.value += '1';
+        input.value += btn.textContent;
     }
     else if (btn.textContent === '2') {
         input.value += '2';
